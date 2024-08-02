@@ -25,7 +25,6 @@ const Navigation = () => {
                   ? 'underline underline-offset-8 text-[#5E77A8] decoration-white'
                   : ''
               }`}
-              style={{ textDecoration: 'none' }}
             >
               {link.name}
             </NavLink>
@@ -52,7 +51,6 @@ const Navigation = () => {
                   ? 'underline underline-offset-8 text-[#5E77A8] decoration-white'
                   : ''
               }`}
-              style={{ textDecoration: 'none' }}
               onClick={() => setIsMobileMenuOpen(false)} 
             >
               {link.name}
