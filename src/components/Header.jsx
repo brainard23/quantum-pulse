@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='bg-[#040E18] w-full flex justify-between items-center p-10 h-[15dvh]'>
         <div className=''  >
-            <img src={qpc} width={200} height={200} alt='quantum pulse consulting logo' />
+            <img src={qpc}  alt='quantum pulse consulting logo' className='md:flex  md:w-[200px] md:h-[70px] w-[150px] h-[70px]'/>
         </div>
         <div>
           <Navigation />

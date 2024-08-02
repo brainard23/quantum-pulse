@@ -12,6 +12,6 @@ export const homeNav = [
         path: '/case-studies'
     },
     {name: 'Contact Us',
-        path: '/contact-us'
+        path: '/contact'
     }
 ]

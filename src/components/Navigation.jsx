@@ -42,7 +42,7 @@ const Navigation = () => {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <div className="md:hidden flex flex-col items-center gap-4 p-4 bg-gray-800 text-white">
+        <div className="md:hidden flex flex-col items-center gap-4 p-4 bg-gray-800 text-white absolute top-0 right-0 h-full w-[300px] z-10 ">
           {homeNav.map((link, i) => (
             <NavLink
               key={i}
