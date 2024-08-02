@@ -7,5 +7,13 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        '.grayscale': {
+          '-webkit-filter': 'grayscale(100%)',
+          'filter': 'grayscale(100%)',
+        }
+      });
+    }
+  ],}
