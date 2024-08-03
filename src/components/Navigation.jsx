@@ -22,9 +22,9 @@ const Navigation = () => {
               to={link.path}
               className={`${
                 link.path === location.pathname
-                  ? 'underline underline-offset-8 text-[#5E77A8] decoration-white'
+                  ? 'underline underline-offset-8 text-[#667A91] decoration-white opacity-[.78]'
                   : ''
-              }`}
+              } text-[21px] font-medium`}
             >
               {link.name}
             </NavLink>
@@ -48,7 +48,7 @@ const Navigation = () => {
               to={link.path}
               className={`${
                 link.path === location.pathname
-                  ? 'underline underline-offset-8 text-[#5E77A8] decoration-white'
+                  ? 'underline underline-offset-8 text-[#667A91] decoration-white opacity-75'
                   : ''
               }`}
               onClick={() => setIsMobileMenuOpen(false)} 
